@@ -42,11 +42,6 @@ const Note = ({ index, coordinate, noteContent, removeNote, updateNoteText, upda
     setEditingStatus(false);
   };
 
-  const eventControl = (event, infor) => {
-    //event.preventDefault();
-    //console.log("Event name", event.type);
-  }
-
   const handleDragStart = (event) => {
     console.log("handle drag start");
   }
